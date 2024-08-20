@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main-Todoish</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input">
+      <input class="input-element" type="text" placeholder="Enter Your Name" required>
+      <button class="start-button">Ok</button>
+    </div>
+    <p class="welcome-name"></p>
+    <div>
+      <h5 class="h5">Ask for clear <quote>THINKING & DIRECTION</quote> </h5>
+      <div class="header">
+        <h2 >To Do-ish <img src="./Images/writing.png" width="40px"> </h2>
+        <div class="rows">
+           <input type="text" placeholder="Enter The Task" class="Task-input">
+           <input type="time" class="time">
+           <button class="add-button" onclick="addTodo()">Add</button>
+        </div>
+        <div class="list-container list-grid">
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
